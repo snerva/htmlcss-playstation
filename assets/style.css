@@ -1,6 +1,7 @@
 :root{
     --ps-ps_plus-bck: #bebcbb;
     --ps-ps_now-bck: #161c3b;
+    --ps-text-grey: #727272;
     --ps-bck-footer: #00439C;
     --ps-button-second: #2D64E6;
     --ps-text-colored: #0072ce;
@@ -14,7 +15,6 @@ body{
 .new_top{
     height: 594px;
 }
-
 .footer_logo{
     height: 60px;
 }
@@ -24,6 +24,8 @@ body{
 .logo_sony{
     height: 16px;
 }
+/*#endregion header*/
+/*#region main*/
 .jumbo_top{
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
@@ -37,9 +39,20 @@ body{
     background-color: var(--ps-button-first);
     border-style: none;
 }
-
-/*#endregion header*/
-/*#region main*/
+.ps5 p{
+    color: var(--ps-text-grey);
+}
+.ps5_text p:first-child{
+    color: var(--ps-text-colored);
+    font-size: smaller;
+}
+.ps5 .btn{
+    background-color: var(--ps-button-second);
+    border-style: none;
+}
+.blue_border{
+    border-bottom: 2px solid var(--ps-text-colored);
+}
 .ps_plus{
     background-color: var(--ps-ps_plus-bck);
 }
