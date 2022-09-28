@@ -8,14 +8,13 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
 }
 /* debug */
-
 .jumbo_top,
 .new_top{
     height: 594px;
 }
+
 .footer_logo{
     height: 60px;
 }
@@ -24,6 +23,19 @@ body{
 /*#region header*/
 .logo_sony{
     height: 16px;
+}
+.jumbo_top{
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner_logo{
+    height: 35px;
+}
+.jumbo_content .btn{
+    background-color: var(--ps-button-first);
+    border-style: none;
 }
 
 /*#endregion header*/
