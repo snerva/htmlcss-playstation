@@ -1,0 +1,38 @@
+:root{
+    --ps-ps_plus-bck: #bebcbb;
+    --ps-ps_now-bck: #161c3b;
+    --ps-bck-footer: #00439C;
+    --ps-button-second: #2D64E6;
+    --ps-button-first: #CD3D0F;
+    --ps-text-colored: #0072ce;
+}
+
+/* debug */
+.header_top{
+    height: 36px;
+}
+.header_bottom{
+    height: 67px;
+}
+.jumbo_top,
+.new_top{
+    height: 594px;
+}
+.footer_logo{
+    height: 60px;
+}
+
+/*#region main*/
+.ps_plus{
+    background-color: var(--ps-ps_plus-bck);
+}
+.ps_now{
+    background-color: var(--ps-ps_now-bck);
+}
+/*#endregion main*/
+
+/*#region footer*/
+footer{
+    background-color: var(--ps-bck-footer);
+}
+/*#endregion footer*/
