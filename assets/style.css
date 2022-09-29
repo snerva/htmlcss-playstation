@@ -101,6 +101,9 @@ header{
     background-repeat: no-repeat;
     background-position: right;
 }
+.social_title{
+    font-size: 32px;
+}
 /*#endregion main*/
 
 /*#region footer*/
@@ -108,3 +111,16 @@ footer{
     background-color: var(--ps-bck-footer);
 }
 /*#endregion footer*/
+
+@media screen and (min-width:768px) {
+    .social_container{
+        width: 75%;
+        margin: 0 auto;
+    }   
+}
+@media screen and (min-width:1200px) {
+    .social_container{
+        width: 50%;
+        margin: 0 auto;
+    }   
+}
