@@ -18,11 +18,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-.ps5 .btn,
-.ps4 .btn{
-    background-color: var(--ps-button-second);
-    border-style: none;
-}
 .footer_logo{
     height: 60px;
 }
@@ -44,11 +39,14 @@ body{
 .jumbo_content .btn,
 .banner_content .btn{
     background-color: var(--ps-button-first);
-    border-style: none;
 }
 .blue_outline{
     outline: 2px solid var(--ps-text-colored);
     outline-offset: 3px;
+}
+.ps5 .btn,
+.ps4 .btn{
+    background-color: var(--ps-button-second);
 }
 /* ps 5 */
 .ps5 p{
@@ -65,15 +63,26 @@ body{
 .new_top{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
+.new_bottom p{
+    font-size: 15px;
+}
 .banner_logo{
     height: 198px;
-}
-.new_bottom .col p{
-    font-size: 15px;
 }
 /*ps plus*/
 .ps_plus{
     background-color: var(--ps-ps_plus-bck);
+}
+.ps_plus .btn{
+    color: var(--ps-button-second);
+}
+.logo_plus{
+    height: 63px;
+}
+.plus_bck{
+    background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .ps_now{
     background-color: var(--ps-ps_now-bck);
