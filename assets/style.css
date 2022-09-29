@@ -24,9 +24,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-.footer_logo{
-    height: 60px;
-}
+
 .title_big{
     font-size: 40px;
 }
@@ -115,5 +113,22 @@ header{
 /*#region footer*/
 footer{
     background-color: var(--ps-bck-footer);
+    font-size: 14px;
+}
+.footer_logo{
+    height: 60px;
+}
+.country img{
+    height: 20px;
+}
+.footer_list li{
+    list-style: none;
+
+}
+.footer_list a{
+    text-decoration: none;
+}
+.footer_sie{
+    height: 50px;
 }
 /*#endregion footer*/
