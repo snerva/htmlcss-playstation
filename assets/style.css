@@ -88,11 +88,18 @@ header{
 }
 .plus_bck{
     background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: right;
 }
 .ps_now{
     background-color: var(--ps-ps_now-bck);
+}
+.now_bck{
+    background-image: url(./img/ps-now-april-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 /*#endregion main*/
 
