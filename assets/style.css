@@ -43,6 +43,10 @@ body{
     background-color: var(--ps-button-first);
     border-style: none;
 }
+.blue_outline{
+    outline: 2px solid var(--ps-text-colored);
+    outline-offset: 3px;
+}
 /* ps 5 */
 .ps5 p{
     color: var(--ps-text-grey);
