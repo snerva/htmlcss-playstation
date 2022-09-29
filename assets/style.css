@@ -63,6 +63,12 @@ header{
     color: var(--ps-text-colored);
     font-size: smaller;
 }
+.col_opacity{
+    opacity: 0.7;
+}
+.small_img{
+    height: 100px;
+}
 .blue_border{
     border-bottom: 2px solid var(--ps-text-colored);
 }
@@ -116,7 +122,10 @@ footer{
     .social_container{
         width: 75%;
         margin: 0 auto;
-    }   
+    } 
+    .small_img{
+        height: 60px;
+    }  
 }
 @media screen and (min-width:1200px) {
     .social_container{
