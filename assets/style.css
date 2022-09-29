@@ -10,6 +10,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
 /*Common*/
 .jumbo_top,
 .new_top{
@@ -49,7 +55,8 @@ body{
     background-color: var(--ps-button-second);
 }
 /* ps 5 */
-.ps5 p{
+.ps5 p,
+.ps_store p{
     color: var(--ps-text-grey);
 }
 .ps5_text p:first-child{
