@@ -25,13 +25,17 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .title_big{
     font-size: 40px;
 }
 /*#region header*/
 .logo_sony{
     height: 16px;
+}
+.header_bottom .btn:hover{
+    outline: 1px solid rgb(250, 249, 249);
+    outline-offset: -4px;
+
 }
 /*#endregion header*/
 /*#region main*/
@@ -53,7 +57,16 @@ header{
 .jumbo_content .btn,
 .banner_content .btn{
     background-color: var(--ps-button-first);
+    transition: outline 0,5s;
+    transition-timing-function: linear;
 }
+.jumbo_content .btn:hover,
+.banner_content .btn:hover{
+    background-color: var(--ps-button-first);
+    outline: 1px solid rgb(31, 29, 29);
+    outline-offset: -4px;
+}
+
 .blue_outline{
     outline: 2px solid var(--ps-text-colored);
     outline-offset: 3px;
@@ -61,6 +74,14 @@ header{
 .ps5 .btn,
 .ps4 .btn{
     background-color: var(--ps-button-second);
+    transition: outline 0,5s;
+    transition-timing-function: linear;
+}
+.ps5 .btn:hover,
+.ps4 .btn:hover{
+    background-color: var(--ps-button-second);
+    outline: 1px solid rgb(250, 248, 248);
+    outline-offset: -4px;
 }
 /* ps 5 */
 .ps5 p,
@@ -96,6 +117,13 @@ header{
 }
 .ps_plus .btn{
     color: var(--ps-button-second);
+    transition: outline 0,5s;
+    transition-timing-function: linear;
+}
+.ps_plus .btn:hover{
+    color: var(--ps-button-second);
+    outline: 1px solid var(--ps-ps_plus-bck);
+    outline-offset: -4px;
 }
 .logo_plus{
     height: 63px;
@@ -114,6 +142,14 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+}
+.ps_now .btn{
+    transition: outline 0,5s;
+    transition-timing-function: linear;
+}
+.ps_now .btn:hover{
+    outline: 1px solid var(--ps-ps_now-bck);
+    outline-offset: -4px;
 }
 .social_title{
     font-size: 32px;
@@ -135,7 +171,7 @@ footer{
     list-style: none;
 
 }
-.footer_list a{
+.footer_top a{
     text-decoration: none;
 }
 .footer_sie{
