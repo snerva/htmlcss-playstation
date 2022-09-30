@@ -1,0 +1,135 @@
+:root{
+    --ps-ps_plus-bck: #bebcbb;
+    --ps-ps_now-bck: #161c3b;
+    --ps-text-grey: #727272;
+    --ps-bck-footer: #00439C;
+    --ps-button-second: #2D64E6;
+    --ps-text-colored: #0072ce;
+    --ps-button-first: #CD3D0F;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/*Common*/
+.jumbo_top,
+.new_top{
+    height: 594px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title_big{
+    font-size: 40px;
+}
+/*#region header*/
+.logo_sony{
+    height: 16px;
+}
+/*#endregion header*/
+/*#region main*/
+.jumbo_top{
+    background-image: url(./img/jumbo-bg.png);
+}
+.jumbo_logo{
+    height: 35px;
+}
+.jumbo_content .btn,
+.banner_content .btn{
+    background-color: var(--ps-button-first);
+}
+.blue_outline{
+    outline: 2px solid var(--ps-text-colored);
+    outline-offset: 3px;
+}
+.ps5 .btn,
+.ps4 .btn{
+    background-color: var(--ps-button-second);
+}
+/* ps 5 */
+.ps5 p,
+.ps_store p{
+    color: var(--ps-text-grey);
+}
+.ps5_text p:first-child{
+    color: var(--ps-text-colored);
+    font-size: smaller;
+}
+.col_opacity{
+    opacity: 0.7;
+}
+.small_img{
+    height: 100px;
+}
+.blue_border{
+    border-bottom: 2px solid var(--ps-text-colored);
+}
+/*new*/
+.new_top{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
+.new_bottom p{
+    font-size: 15px;
+}
+.banner_logo{
+    height: 198px;
+}
+/*ps plus*/
+.ps_plus{
+    background-color: var(--ps-ps_plus-bck);
+}
+.ps_plus .btn{
+    color: var(--ps-button-second);
+}
+.logo_plus{
+    height: 63px;
+}
+.plus_bck{
+    background-image: url(./img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ps_now{
+    background-color: var(--ps-ps_now-bck);
+}
+.now_bck{
+    background-image: url(./img/ps-now-april-featured-image-block.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.social_title{
+    font-size: 32px;
+}
+/*#endregion main*/
+
+/*#region footer*/
+footer{
+    background-color: var(--ps-bck-footer);
+    font-size: 14px;
+}
+.footer_logo{
+    height: 60px;
+}
+.country img{
+    height: 20px;
+}
+.footer_list li{
+    list-style: none;
+
+}
+.footer_list a{
+    text-decoration: none;
+}
+.footer_sie{
+    height: 50px;
+}
+/*#endregion footer*/
