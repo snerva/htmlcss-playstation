@@ -41,6 +41,15 @@ header{
 .jumbo_logo{
     height: 35px;
 }
+.jumbo_bottom .up_hover{
+    transition: margin-inline-start 0.5s;
+    transition-timing-function: linear;
+}
+.jumbo_bottom .up_hover:hover{
+    cursor: pointer;
+    writing-mode: vertical-lr;
+    margin-inline-start: -12px;
+}
 .jumbo_content .btn,
 .banner_content .btn{
     background-color: var(--ps-button-first);
